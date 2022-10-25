@@ -1,0 +1,18 @@
+#wel {
+  text-align: center;
+  color: brown;
+}
+body {
+  background-color: #3399ff;
+}
+#goahead {
+ background-color: rebeccapurple;
+  border: 40%;
+  color: white;
+  padding: 15px 32px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
