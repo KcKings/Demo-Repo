@@ -1,13 +1,65 @@
 body {
   background-color: #7a7ab8;}
 .king-d {
-  background-image: url(/images/K2.jpg);
-  background-color: #cccccc;
+  margin: 0 auto;
+  padding: 2px;
+  border: 2px solid black;
+  width:auto;
+  max-width: 80%;
   height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(/images/K2.jpg);
   position: relative;
   text-align: center;
-  color: white;
+  color: darkred;
+}
+.k2d {
+  width: 80%;
+  height: 200px;
+}
+img {
+  height: 200px;
+  width: 60%;
+}
+
+
+/* THIS IS FOR THE DESIGN BOX 😉*/
+.Big1 {
+  margin: 25px;
+  width: auto 80%;
+  max-width: 400px;
+  height: 300px;
+  background-color: #35ffd2;
+  outline: dashed 1px black;
+  /* Center vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Big2 {
+  margin: 2px auto;
+  width: auto 80%;
+  min-width: 70%;
+  height: 80%;
+  background-color: #ff32d1;
+  outline: solid 1px black;
+  /* Center vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Big3 {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Big4{
+  width: 60px;
+  height: 60px;
+  background-image: url(/images/K3.png);
+  background-size: 50%;
 }
