@@ -3,7 +3,7 @@ body {
 .king-d {
   margin: 0 auto;
   padding: 2px;
-  border: 2px solid black;
+  border: none;
   width:auto;
   max-width: 80%;
   height: 500px;
@@ -11,11 +11,10 @@ body {
   background-image: url(/images/K2.jpg);
   position: relative;
   text-align: center;
-  color: darkred;
-}
-.k2d {
-  width: 80%;
-  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
 }
 img {
   height: 200px;
@@ -35,6 +34,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .Big2 {
   margin: 2px auto;
